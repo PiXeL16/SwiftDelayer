@@ -11,6 +11,8 @@
 		83B5056E1C61B8E70055342D /* SwiftDelayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B5056D1C61B8E70055342D /* SwiftDelayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83B505751C61B8E70055342D /* SwiftDelayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B5056A1C61B8E70055342D /* SwiftDelayer.framework */; };
 		83B5057A1C61B8E70055342D /* SwiftDelayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B505791C61B8E70055342D /* SwiftDelayerTests.swift */; };
+		83B505851C61BD1B0055342D /* Delayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B505841C61BD1B0055342D /* Delayer.swift */; };
+		83B505871C61BE140055342D /* DelayerSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B505861C61BE140055342D /* DelayerSpecs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +32,8 @@
 		83B505741C61B8E70055342D /* SwiftDelayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDelayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B505791C61B8E70055342D /* SwiftDelayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDelayerTests.swift; sourceTree = "<group>"; };
 		83B5057B1C61B8E70055342D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B505841C61BD1B0055342D /* Delayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delayer.swift; sourceTree = "<group>"; };
+		83B505861C61BE140055342D /* DelayerSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelayerSpecs.swift; sourceTree = "<group>"; };
 		877F53C1CA7D767C32EEBC83 /* Pods_SwiftDelayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDelayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B06565145D17A495C7236F4 /* Pods-SwiftDelayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDelayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDelayerTests/Pods-SwiftDelayerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABA1607ED200753E0BE6F225 /* Pods-SwiftDelayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDelayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDelayerTests/Pods-SwiftDelayerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,6 +84,7 @@
 			children = (
 				83B5056D1C61B8E70055342D /* SwiftDelayer.h */,
 				83B5056F1C61B8E70055342D /* Info.plist */,
+				83B505841C61BD1B0055342D /* Delayer.swift */,
 			);
 			path = SwiftDelayer;
 			sourceTree = "<group>";
@@ -89,6 +94,7 @@
 			children = (
 				83B505791C61B8E70055342D /* SwiftDelayerTests.swift */,
 				83B5057B1C61B8E70055342D /* Info.plist */,
+				83B505861C61BE140055342D /* DelayerSpecs.swift */,
 			);
 			path = SwiftDelayerTests;
 			sourceTree = "<group>";
@@ -269,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B505851C61BD1B0055342D /* Delayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83B5057A1C61B8E70055342D /* SwiftDelayerTests.swift in Sources */,
+				83B505871C61BE140055342D /* DelayerSpecs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +391,7 @@
 		83B5057F1C61B8E70055342D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -393,12 +402,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.greenpixels.SwiftDelayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		83B505801C61B8E70055342D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
