@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		382575BCFEF169240B230897 /* Pods_SwiftDelayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877F53C1CA7D767C32EEBC83 /* Pods_SwiftDelayerTests.framework */; };
 		83B5056E1C61B8E70055342D /* SwiftDelayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B5056D1C61B8E70055342D /* SwiftDelayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83B505751C61B8E70055342D /* SwiftDelayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B5056A1C61B8E70055342D /* SwiftDelayer.framework */; };
 		83B5057A1C61B8E70055342D /* SwiftDelayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B505791C61B8E70055342D /* SwiftDelayerTests.swift */; };
@@ -29,6 +30,9 @@
 		83B505741C61B8E70055342D /* SwiftDelayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDelayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B505791C61B8E70055342D /* SwiftDelayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDelayerTests.swift; sourceTree = "<group>"; };
 		83B5057B1C61B8E70055342D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877F53C1CA7D767C32EEBC83 /* Pods_SwiftDelayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDelayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B06565145D17A495C7236F4 /* Pods-SwiftDelayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDelayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDelayerTests/Pods-SwiftDelayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABA1607ED200753E0BE6F225 /* Pods-SwiftDelayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDelayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDelayerTests/Pods-SwiftDelayerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83B505751C61B8E70055342D /* SwiftDelayer.framework in Frameworks */,
+				382575BCFEF169240B230897 /* Pods_SwiftDelayerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +61,8 @@
 				83B5056C1C61B8E70055342D /* SwiftDelayer */,
 				83B505781C61B8E70055342D /* SwiftDelayerTests */,
 				83B5056B1C61B8E70055342D /* Products */,
+				CF04DB3EE89AC69B0A97483B /* Pods */,
+				F212638D8D58116E5282EEF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,6 +91,23 @@
 				83B5057B1C61B8E70055342D /* Info.plist */,
 			);
 			path = SwiftDelayerTests;
+			sourceTree = "<group>";
+		};
+		CF04DB3EE89AC69B0A97483B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B06565145D17A495C7236F4 /* Pods-SwiftDelayerTests.debug.xcconfig */,
+				ABA1607ED200753E0BE6F225 /* Pods-SwiftDelayerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F212638D8D58116E5282EEF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				877F53C1CA7D767C32EEBC83 /* Pods_SwiftDelayerTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83B505811C61B8E70055342D /* Build configuration list for PBXNativeTarget "SwiftDelayerTests" */;
 			buildPhases = (
+				8B3054C4104115C813C09205 /* Check Pods Manifest.lock */,
 				83B505701C61B8E70055342D /* Sources */,
 				83B505711C61B8E70055342D /* Frameworks */,
 				83B505721C61B8E70055342D /* Resources */,
+				76CB7C70D906AACE5035E40E /* Embed Pods Frameworks */,
+				8BDB09B878E59D454B324521 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,6 +215,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76CB7C70D906AACE5035E40E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDelayerTests/Pods-SwiftDelayerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B3054C4104115C813C09205 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8BDB09B878E59D454B324521 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDelayerTests/Pods-SwiftDelayerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		83B505651C61B8E70055342D /* Sources */ = {
@@ -339,6 +414,7 @@
 		};
 		83B505821C61B8E70055342D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B06565145D17A495C7236F4 /* Pods-SwiftDelayerTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftDelayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -349,6 +425,7 @@
 		};
 		83B505831C61B8E70055342D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA1607ED200753E0BE6F225 /* Pods-SwiftDelayerTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftDelayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -376,6 +453,7 @@
 				83B505801C61B8E70055342D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83B505811C61B8E70055342D /* Build configuration list for PBXNativeTarget "SwiftDelayerTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +462,7 @@
 				83B505831C61B8E70055342D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
