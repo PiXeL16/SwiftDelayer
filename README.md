@@ -14,8 +14,19 @@ Usage
 ```swift
 import SwiftDelayer
 
-Delayer.delay(2.0){
+Delayer.delayOnMainQueue(seconds: 2.0){
     print("I was delayed for 2 seconds :-)")            
+}
+```
+
+You can also delay on the specific Queue
+```swift
+import SwiftDelayer
+
+let backgroundQueue = dispatch_get_global_queue(QOS_CLASS_BACKGROUND, 0)
+
+Delayer.delayOnQueue(seconds: 3.0, queue: backgroundQueue){
+    print("I was delayed for 3 seconds :-)")            
 }
 ```
 

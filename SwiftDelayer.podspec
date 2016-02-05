@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SwiftDelayer"
-  s.version      = "1.0"
+  s.version      = "1.0.1"
   s.summary      = "Simple GCD delayer wrapper in Swift"
   s.description  = <<-DESC
     Just a simple wrapper for the GCD delay functionality written in Swift

@@ -18,11 +18,27 @@ class DelayerSpecs: QuickSpec {
         
         let timeout: NSTimeInterval = 3
         
-        it("delays for 2 seconds"){
+        it("delays for 2 seconds on mainQueue"){
             
             var value = false
             
-            Delayer.delay(2){
+            Delayer.delayOnMainQueue(seconds: 2.0){
+                
+                value = true
+                
+            }
+            
+            expect(value).toEventually(beTruthy(),timeout:timeout)
+        }
+        
+        
+        it("delays for 2 seconds on not the main Queue"){
+            
+            var value = false
+            
+            let backgroundQueue = dispatch_get_global_queue(QOS_CLASS_BACKGROUND, 0)
+            
+            Delayer.delayOnQueue(seconds: 2.0, queue: backgroundQueue){
                 
                 value = true
                 

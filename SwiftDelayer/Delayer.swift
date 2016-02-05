@@ -17,11 +17,25 @@ public class Delayer {
      - parameter delay:   Seconds to delay the call of the closure
      - parameter closure: closure to be call
      */
-    public class func delay(delay:Double, closure:()->()) {
+    public class func delayOnMainQueue(seconds seconds:Double, closure:()->()) {
         
-        let dispatchTime = dispatch_time(DISPATCH_TIME_NOW, Int64(delay * Double(NSEC_PER_SEC)))
+        return delayOnQueue(seconds: seconds, queue: dispatch_get_main_queue(), closure: closure)
+    }
+    
+    
+    
+    /**
+     Delay on a specific queue for the number of seconds
+     
+     - parameter seconds: seconds to delay
+     - parameter queue:   queue
+     - parameter closure: closure to be call
+     */
+    public class func delayOnQueue(seconds seconds:Double, queue:dispatch_queue_t, closure:()->()) {
         
-        dispatch_after(dispatchTime,dispatch_get_main_queue(), closure)
+        let dispatchTime = dispatch_time(DISPATCH_TIME_NOW, Int64(seconds * Double(NSEC_PER_SEC)))
+        
+        dispatch_after(dispatchTime,queue, closure)
     }
     
     

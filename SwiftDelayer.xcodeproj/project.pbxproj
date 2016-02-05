@@ -10,7 +10,6 @@
 		382575BCFEF169240B230897 /* Pods_SwiftDelayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877F53C1CA7D767C32EEBC83 /* Pods_SwiftDelayerTests.framework */; };
 		83B5056E1C61B8E70055342D /* SwiftDelayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B5056D1C61B8E70055342D /* SwiftDelayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83B505751C61B8E70055342D /* SwiftDelayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B5056A1C61B8E70055342D /* SwiftDelayer.framework */; };
-		83B5057A1C61B8E70055342D /* SwiftDelayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B505791C61B8E70055342D /* SwiftDelayerTests.swift */; };
 		83B505851C61BD1B0055342D /* Delayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B505841C61BD1B0055342D /* Delayer.swift */; };
 		83B505871C61BE140055342D /* DelayerSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B505861C61BE140055342D /* DelayerSpecs.swift */; };
 /* End PBXBuildFile section */
@@ -30,7 +29,6 @@
 		83B5056D1C61B8E70055342D /* SwiftDelayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftDelayer.h; sourceTree = "<group>"; };
 		83B5056F1C61B8E70055342D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83B505741C61B8E70055342D /* SwiftDelayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDelayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83B505791C61B8E70055342D /* SwiftDelayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDelayerTests.swift; sourceTree = "<group>"; };
 		83B5057B1C61B8E70055342D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83B505841C61BD1B0055342D /* Delayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delayer.swift; sourceTree = "<group>"; };
 		83B505861C61BE140055342D /* DelayerSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelayerSpecs.swift; sourceTree = "<group>"; };
@@ -92,7 +90,6 @@
 		83B505781C61B8E70055342D /* SwiftDelayerTests */ = {
 			isa = PBXGroup;
 			children = (
-				83B505791C61B8E70055342D /* SwiftDelayerTests.swift */,
 				83B5057B1C61B8E70055342D /* Info.plist */,
 				83B505861C61BE140055342D /* DelayerSpecs.swift */,
 			);
@@ -283,7 +280,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83B5057A1C61B8E70055342D /* SwiftDelayerTests.swift in Sources */,
 				83B505871C61BE140055342D /* DelayerSpecs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
