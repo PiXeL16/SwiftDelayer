@@ -15,7 +15,7 @@ Usage
 import SwiftDelayer
 
 Delayer.delay(2.0){
-    print("I was delay for 2 seconds :-)")            
+    print("I was delayed for 2 seconds :-)")            
 }
 ```
 
