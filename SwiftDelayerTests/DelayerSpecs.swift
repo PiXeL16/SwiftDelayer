@@ -22,9 +22,11 @@ class DelayerSpecs: QuickSpec {
             
             var value = false
             
-            Delayer.delay(2, closure: { () -> () in
+            Delayer.delay(2){
+                
                 value = true
-            })
+                
+            }
             
             expect(value).toEventually(beTruthy(),timeout:timeout)
         }
