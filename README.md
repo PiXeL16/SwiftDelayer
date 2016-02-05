@@ -1,5 +1,5 @@
 ![SwiftDelayer](/Art/swiftDelayerBanner.png)
-
+[![Build Status](https://travis-ci.org/PiXeL16/SwiftDelayer.svg?branch=master)](https://travis-ci.org/PiXeL16/SwiftDelayer/) [![codecov.io](https://codecov.io/github/PiXeL16/SwiftDelayer/coverage.svg?branch=master)](https://codecov.io/github/PiXeL16/SwiftDelayer?branch=master) [![Cocoapods Compatible](https://img.shields.io/cocoapods/v/SwiftDelayer.svg)](https://img.shields.io/cocoapods/v/SwiftDelayer.svg) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/PiXeL16/SwiftDelayer/master/LICENSE)
 
 # Swift Delayer
 
