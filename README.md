@@ -19,7 +19,7 @@ Delayer.delayOnMainQueue(seconds: 2.0){
 }
 ```
 
-You can also delay on the specific Queue
+You can also delay on a specific Queue
 ```swift
 import SwiftDelayer
 
