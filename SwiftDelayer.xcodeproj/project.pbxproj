@@ -11,8 +11,7 @@
 		83B505751C61B8E70055342D /* SwiftDelayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B5056A1C61B8E70055342D /* SwiftDelayer.framework */; };
 		83B505851C61BD1B0055342D /* Delayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B505841C61BD1B0055342D /* Delayer.swift */; };
 		83B505871C61BE140055342D /* DelayerSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B505861C61BE140055342D /* DelayerSpecs.swift */; };
-		BFDD208CE24592BA29544CA8 /* Pods_SwiftDelayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9851B32C462D9AA8E582E7 /* Pods_SwiftDelayer.framework */; };
-		E1AD82AFE985C1FD10FDFEE9 /* Pods_SwiftDelayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B58BD8661399BE47455A956 /* Pods_SwiftDelayerTests.framework */; };
+		939F883051A4B20760B99301 /* Pods_SwiftDelayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77804E214D862A9CC705FB99 /* Pods_SwiftDelayerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +25,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		227CC045AD05579BF6011B40 /* Pods-SwiftDelayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDelayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDelayer/Pods-SwiftDelayer.release.xcconfig"; sourceTree = "<group>"; };
-		4B58BD8661399BE47455A956 /* Pods_SwiftDelayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDelayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E4FF94F48348C764EF7E130 /* Pods-SwiftDelayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDelayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDelayerTests/Pods-SwiftDelayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66D70A61D63D67929CE05ADC /* Pods-SwiftDelayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDelayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDelayerTests/Pods-SwiftDelayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		77804E214D862A9CC705FB99 /* Pods_SwiftDelayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDelayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B5056A1C61B8E70055342D /* SwiftDelayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftDelayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B5056D1C61B8E70055342D /* SwiftDelayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftDelayer.h; sourceTree = "<group>"; };
 		83B5056F1C61B8E70055342D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,9 +34,7 @@
 		83B5057B1C61B8E70055342D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83B505841C61BD1B0055342D /* Delayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delayer.swift; sourceTree = "<group>"; };
 		83B505861C61BE140055342D /* DelayerSpecs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelayerSpecs.swift; sourceTree = "<group>"; };
-		8D2FBE06368DC2CD4B20B43D /* Pods-SwiftDelayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDelayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDelayerTests/Pods-SwiftDelayerTests.release.xcconfig"; sourceTree = "<group>"; };
-		A1377C1F9E2CA3A562A574E8 /* Pods-SwiftDelayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDelayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDelayer/Pods-SwiftDelayer.debug.xcconfig"; sourceTree = "<group>"; };
-		AF9851B32C462D9AA8E582E7 /* Pods_SwiftDelayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDelayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB6151D0A48B8204BE5EA61 /* Pods-SwiftDelayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDelayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftDelayerTests/Pods-SwiftDelayerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFDD208CE24592BA29544CA8 /* Pods_SwiftDelayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,29 +50,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				83B505751C61B8E70055342D /* SwiftDelayer.framework in Frameworks */,
-				E1AD82AFE985C1FD10FDFEE9 /* Pods_SwiftDelayerTests.framework in Frameworks */,
+				939F883051A4B20760B99301 /* Pods_SwiftDelayerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0742D3801E24479EF3588FC1 /* Pods */ = {
+		3B5DAD22F29269C9F5B01B10 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A1377C1F9E2CA3A562A574E8 /* Pods-SwiftDelayer.debug.xcconfig */,
-				227CC045AD05579BF6011B40 /* Pods-SwiftDelayer.release.xcconfig */,
-				7E4FF94F48348C764EF7E130 /* Pods-SwiftDelayerTests.debug.xcconfig */,
-				8D2FBE06368DC2CD4B20B43D /* Pods-SwiftDelayerTests.release.xcconfig */,
+				AEB6151D0A48B8204BE5EA61 /* Pods-SwiftDelayerTests.debug.xcconfig */,
+				66D70A61D63D67929CE05ADC /* Pods-SwiftDelayerTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		726B2BBAB181AB9DF04B9BBF /* Frameworks */ = {
+		4E445348F5BA8D8C809E66FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AF9851B32C462D9AA8E582E7 /* Pods_SwiftDelayer.framework */,
-				4B58BD8661399BE47455A956 /* Pods_SwiftDelayerTests.framework */,
+				77804E214D862A9CC705FB99 /* Pods_SwiftDelayerTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,8 +80,8 @@
 				83B5056C1C61B8E70055342D /* SwiftDelayer */,
 				83B505781C61B8E70055342D /* SwiftDelayerTests */,
 				83B5056B1C61B8E70055342D /* Products */,
-				0742D3801E24479EF3588FC1 /* Pods */,
-				726B2BBAB181AB9DF04B9BBF /* Frameworks */,
+				3B5DAD22F29269C9F5B01B10 /* Pods */,
+				4E445348F5BA8D8C809E66FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,12 +131,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83B5057E1C61B8E70055342D /* Build configuration list for PBXNativeTarget "SwiftDelayer" */;
 			buildPhases = (
-				ECA528F261722DF1B84156FC /* Check Pods Manifest.lock */,
 				83B505651C61B8E70055342D /* Sources */,
 				83B505661C61B8E70055342D /* Frameworks */,
 				83B505671C61B8E70055342D /* Headers */,
 				83B505681C61B8E70055342D /* Resources */,
-				A18613E6D77E7F69EA6A58A4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,12 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83B505811C61B8E70055342D /* Build configuration list for PBXNativeTarget "SwiftDelayerTests" */;
 			buildPhases = (
-				0AA0150A970EFF142E3A7A87 /* Check Pods Manifest.lock */,
+				E6BAE4B4B35AB2DF7AE0D82F /* Check Pods Manifest.lock */,
 				83B505701C61B8E70055342D /* Sources */,
 				83B505711C61B8E70055342D /* Frameworks */,
 				83B505721C61B8E70055342D /* Resources */,
-				95509CF7B46A05049719AF39 /* Embed Pods Frameworks */,
-				92F4CD8658E42E17B66FF24A /* Copy Pods Resources */,
+				F4F8B5AED8D043CC0CC79EC7 /* Embed Pods Frameworks */,
+				419CA069D850A287F8E05D8C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,22 +220,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0AA0150A970EFF142E3A7A87 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		92F4CD8658E42E17B66FF24A /* Copy Pods Resources */ = {
+		419CA069D850A287F8E05D8C /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -260,37 +235,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDelayerTests/Pods-SwiftDelayerTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		95509CF7B46A05049719AF39 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDelayerTests/Pods-SwiftDelayerTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A18613E6D77E7F69EA6A58A4 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDelayer/Pods-SwiftDelayer-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ECA528F261722DF1B84156FC /* Check Pods Manifest.lock */ = {
+		E6BAE4B4B35AB2DF7AE0D82F /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,6 +248,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4F8B5AED8D043CC0CC79EC7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftDelayerTests/Pods-SwiftDelayerTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -426,7 +386,6 @@
 		};
 		83B5057F1C61B8E70055342D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1377C1F9E2CA3A562A574E8 /* Pods-SwiftDelayer.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -445,7 +404,6 @@
 		};
 		83B505801C61B8E70055342D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 227CC045AD05579BF6011B40 /* Pods-SwiftDelayer.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -463,7 +421,7 @@
 		};
 		83B505821C61B8E70055342D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E4FF94F48348C764EF7E130 /* Pods-SwiftDelayerTests.debug.xcconfig */;
+			baseConfigurationReference = AEB6151D0A48B8204BE5EA61 /* Pods-SwiftDelayerTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftDelayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -474,7 +432,7 @@
 		};
 		83B505831C61B8E70055342D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D2FBE06368DC2CD4B20B43D /* Pods-SwiftDelayerTests.release.xcconfig */;
+			baseConfigurationReference = 66D70A61D63D67929CE05ADC /* Pods-SwiftDelayerTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = SwiftDelayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
